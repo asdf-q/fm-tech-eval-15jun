@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang=“en”>
+  <head>
+    <title>Foster Moore Technical Evaluation</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 40px;
+      }
+      h1 {
+        color: #0000cc;
+      }
+      h2 {
+        color: #9933ff;
+      }
+      input[type="text"] {
+        width: 200px;
+        padding: 10px;
+        font-size: 16px;
+      }
+      button_y {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+      button_n {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #FF0000;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Foster Moore Technical Evaluation</h1>
+    <h2>Are you happy with Ram?</h2>
+    <button_y onclick="yes()">Yes, he made the cut.</button_y>
+    <button_n onclick="no()">Nah!</button_n>
+    <script>
+      function yes() {
+        alert("Thanks, you made his day!");
+      }
+      function no() {
+        alert("You might be joking. He's Good.");
+      }
+    </script>
+  </body>
+</html>
